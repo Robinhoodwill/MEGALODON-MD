@@ -22,9 +22,9 @@ module.exports = {
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349161088087",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ROBIN HOOD",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -39,7 +39,7 @@ module.exports = {
     
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "👅,🫦,👀,💦,👻,👽,💌",  // Custom reaction emojis
     
     STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
 
@@ -77,11 +77,11 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
    
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",     
     // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // VIEW to status updates?
